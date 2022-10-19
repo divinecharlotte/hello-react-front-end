@@ -1,4 +1,4 @@
-## Hello Rails React
+## Hello React Front End
 >This project helps to generate random greeting messages.
 
 ## Built With
