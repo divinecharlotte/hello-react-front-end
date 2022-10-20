@@ -14,7 +14,7 @@ const Greeting = () => {
   return (
     <div className="App">
       <h2>Greeting</h2>
-      <p>{greetingList.message}</p>
+      <p>{greetingList}</p>
     </div>
   );
 };

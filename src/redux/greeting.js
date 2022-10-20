@@ -5,7 +5,8 @@ const initialState = [];
 
 export const fetchData = () => async (dispatch) => {
   const res = await axios.get('http://localhost:3000/api/v1/greetings');
-  return dispatch({ type: GET_DATA, payload: res.data.greeting });
+
+  return dispatch({ type: GET_DATA, payload: res.data.message });
 };
 
 const greetingReducer = (state = initialState, action) => {
